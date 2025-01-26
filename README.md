@@ -1,6 +1,6 @@
 # Finance_PL_BOT
 
-# Financial QA Bot
+# It is a Financial Question & Answering Bot
 
 This repository contains a Streamlit application for answering financial queries using context from uploaded financial documents (e.g., Profit and Loss statements in PDF format). The application uses Hugging Face embeddings for vector-based document search and the Groq LLM (Llama3-8b-8192) for answering questions based on the retrieved context.
 
@@ -18,7 +18,7 @@ This repository contains a Streamlit application for answering financial queries
 ### Part 1: Retrieval-Augmented Generation (RAG) Model for QA Bot on P&L Data
 
 **Problem Statement**:
-Develop a Retrieval-Augmented Generation (RAG) model for a Question Answering (QA) bot that can process financial terms and insights from a Profit & Loss (P&L) table extracted from PDF documents. The QA bot retrieves relevant information related to income, expenses, profit margins, and other key financial metrics and generates accurate responses.
+To develop a Retrieval-Augmented Generation (RAG) model for a Question Answering (QA) bot that can process financial terms and insights from a Profit & Loss (P&L) table extracted from PDF documents. The QA bot retrieves relevant information related to income, expenses, profit margins, and other key financial metrics and generates accurate responses.
 
 **Implementation Steps**:
 1. **Loading and Preprocessing**:
