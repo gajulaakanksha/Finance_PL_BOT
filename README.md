@@ -133,7 +133,9 @@ Example financial queries such as:
 
   ***1. What are the total expenses for Q2 2023?***
 
-  
+      ![download](https://github.com/user-attachments/assets/84ad2a51-500a-4d95-8a2b-bd45aabc0125)
+
+
 
 
  ***2. Show the operating margin for the past 6 months***
