@@ -159,6 +159,32 @@ Example financial queries such as:
  
 ---
 
+## Docker file
+***Create docker file***
+```bash
+   # Use official Python image
+   FROM python:3.10-slim
+
+   # Set working directory
+   WORKDIR /app
+
+   # Copy necessary files
+   COPY requirements.txt requirements.txt
+   COPY app.py app.py
+   COPY .env .env
+   COPY utils/ utils/
+
+   # Install dependencies
+   RUN pip install --no-cache-dir -r requirements.txt
+
+   # Expose port for Streamlit
+   EXPOSE 8501
+```
+
+***To Run the Streamlit app***
+```bash
+CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.enableCORS=false"]
+```
 
 ## Future Enhancements
 - Add support for other document formats (e.g., Excel, Word).
