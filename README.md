@@ -133,20 +133,29 @@ Example financial queries such as:
 
   ***1. What are the total expenses for Q2 2023?***
 
+       ![3](https://github.com/user-attachments/assets/5b8fef06-664a-490b-8730-466cfca25826)
 
+       ![4](https://github.com/user-attachments/assets/975c5eb7-0ffd-424e-9313-9a26b020251d)
 
 
  ***2. Show the operating margin for the past 6 months***
+       ![6](https://github.com/user-attachments/assets/0a0588a2-f601-4f1e-9510-c1d3a9b15c66)
 
-        
+       ![7](https://github.com/user-attachments/assets/138ccf9e-6ea4-42e2-b068-74f7cf70ee49)
+
 
  ***3. What is the gross profit for Q3 2024?***
 
+       ![8](https://github.com/user-attachments/assets/58b4e5e2-47b7-4f99-8f59-8606260e7d57)
 
+       ![9](https://github.com/user-attachments/assets/e1f82c1e-748c-4d0e-b7cf-dde9e4c705dd)
 
 
  ***4. How do the net income and operating expenses compare for Q1 2024?***
 
+       ![10](https://github.com/user-attachments/assets/8c9a33e6-6386-455d-af8e-4637717730cf)
+
+       ![11](https://github.com/user-attachments/assets/6c735613-fb6b-43f3-b6f7-b024316ecbac)
  
 ---
 
