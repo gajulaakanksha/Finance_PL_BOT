@@ -183,14 +183,8 @@ Example financial queries such as:
 
 ***To Run the Streamlit app***
 ```bash
-CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.enableCORS=false"]
+CMD ["streamlit run app.py", "--server.port=8501", "--server.enableCORS=false"]
 ```
 
-## Future Enhancements
-- Add support for other document formats (e.g., Excel, Word).
-- Implement additional filtering or ranking mechanisms for retrieved document chunks.
-- Optimize embedding creation and retrieval for faster response times.
-- Add a feature for downloading answers and retrieved context.
 
----
 
