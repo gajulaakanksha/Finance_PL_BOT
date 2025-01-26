@@ -125,30 +125,31 @@ To run streamlit in google colab using localtunnel:
 ---
 
 ## Example Queries and Outputs
-- "What is the gross profit for Q3 2024?"
-  - **Answer**: $X
-  - **Retrieved Data**: Row containing Q3 2024 gross profit.
-- "How do net income and operating expenses compare for Q1 2024?"
-  - **Answer**: Net income was $Y, and operating expenses were $Z.
-  - **Retrieved Data**: Rows containing Q1 2024 net income and operating expenses.
+Example financial queries such as:
+ - "What are the total expenses for Q2 2023?"
+ - "Show the operating margin for the past 6 months."
+ - "What is the gross profit for Q3 2024?"
+ - "How do the net income and operating expenses compare for Q1 2024?"
+
+  ***1. What are the total expenses for Q2 2023?***
+
+  
+
+
+ ***2. Show the operating margin for the past 6 months***
+
+        
+
+ ***3. What is the gross profit for Q3 2024?***
+
+
+
+
+ ***4. How do the net income and operating expenses compare for Q1 2024?***
+
  
-  4. **Testing**:
-   - Test the model with financial queries such as:
-     - "What is the gross profit for Q3 2024?"
-     - "How do the net income and operating expenses compare for Q1 2024?"
-
 ---
 
-## General Guidelines
-- **Containerization**:
-  - Use Docker to containerize the application for seamless deployment.
-- **Code Quality**:
-  - Modular and scalable code with best practices for frontend and backend development.
-- **Performance**:
-  - Optimize the pipeline to handle large documents and multiple queries without latency issues.
-  - Ensure accurate parsing and retrieval of P&L terms for precise question answering.
-
----
 
 ## Future Enhancements
 - Add support for other document formats (e.g., Excel, Word).
