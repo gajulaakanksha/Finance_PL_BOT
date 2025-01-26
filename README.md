@@ -30,14 +30,6 @@ To develop a Retrieval-Augmented Generation (RAG) model for a Question Answering
 3. **Retrieval-Augmented Generation**:
    - Implement a RAG model to retrieve relevant document chunks.
    - Use Groq's LLM to generate responses based on retrieved context.
-4. **Testing**:
-   - Test the model with financial queries such as:
-     - "What is the gross profit for Q3 2024?"
-     - "How do the net income and operating expenses compare for Q1 2024?"
-
-**Deliverables**:
-- A Colab notebook demonstrating the pipeline, including loading and preprocessing P&L data, embedding creation, and query-answering.
-- Example queries and corresponding responses showcasing the system's accuracy.
 
 ---
 
@@ -58,12 +50,6 @@ Develop an interactive interface for the QA bot, allowing users to upload PDF do
    - Show retrieved financial data segments (e.g., rows or cells from the P&L table) alongside generated answers.
 4. **Performance Optimization**:
    - Ensure the system handles large documents and multiple queries efficiently.
-
-**Deliverables**:
-- A working Streamlit interface where users can:
-  - Upload PDF documents.
-  - Ask financial questions and view answers alongside relevant table segments.
-- Example interaction scenarios demonstrating the bot’s financial query capabilities.
 
 ---
 
@@ -125,6 +111,11 @@ Ensure you have the following installed:
 - "How do net income and operating expenses compare for Q1 2024?"
   - **Answer**: Net income was $Y, and operating expenses were $Z.
   - **Retrieved Data**: Rows containing Q1 2024 net income and operating expenses.
+ 
+  4. **Testing**:
+   - Test the model with financial queries such as:
+     - "What is the gross profit for Q3 2024?"
+     - "How do the net income and operating expenses compare for Q1 2024?"
 
 ---
 
