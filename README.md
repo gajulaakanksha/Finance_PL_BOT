@@ -59,6 +59,7 @@ Develop an interactive interface for the QA bot, allowing users to upload PDF do
 Ensure you have the following installed:
 - Python 3.10+
 - pip
+- Install necessary libraries such as langchain_groq, langchain_community, PyPDF
 
 ### Installation
 1. Clone the repository:
@@ -84,6 +85,7 @@ Ensure you have the following installed:
    ```
 
 ### Running the Application
+To run streamlit in vscode:
 1. Start the Streamlit server:
    ```bash
    streamlit run app.py
@@ -91,6 +93,24 @@ Ensure you have the following installed:
 
 2. Open the application in your browser (usually at `http://localhost:8501`).
 
+To run streamlit in google colab using localtunnel:
+1. Install Streamlit
+   ```bash
+   ! pip install streamlit -q
+   ```
+
+2. Retrieves external IP address using the wget command
+   ```
+   !wget -q -O - ipv4.icanhazip.com
+   ```
+   After running this cell a password is generated 
+
+3. Runs the Streamlit app in the background & expose the locally running Streamlit app to the internet
+   ```
+   !streamlit run main.py & npx localtunnel --port 8501
+   ```
+   click on (your URL) it opens a page where the above password is uploaded then it opens the Finance QA Bot
+   
 ### Using the Application
 1. **Upload a PDF**:
    - Click on the file uploader to upload a financial document in PDF format.
